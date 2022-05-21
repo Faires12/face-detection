@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc --w\" \"nodemon ./dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/socket.io": "^3.0.2",
+    "concurrently": "^7.2.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@tensorflow-models/blazeface": "^0.0.7",
+    "@tensorflow/tfjs": "^3.18.0",
+    "canvas": "^2.9.1",
+    "chalk": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  }
+}
